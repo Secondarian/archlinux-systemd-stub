@@ -1,6 +1,7 @@
 pkgname=systemd-stub
-pkgver=0
-pkgrel=0
+pkgver=1
+pkgrel=1
+pkgdesc="Minimal pacman SystemD stub"
 arch=('any')
 depends=('libelogind')
 provides=('systemd' 'systemd-libs' 'libsystemd.so=0-64')
