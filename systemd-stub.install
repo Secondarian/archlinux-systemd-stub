@@ -1,0 +1,7 @@
+post_install() {
+	ln /usr/lib/libelogind.so.0 /usr/lib/libsystemd.so.0
+}
+
+pre_remove() {
+	rm /usr/lib/libsystemd.so.0
+}
