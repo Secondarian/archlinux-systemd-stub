@@ -3,7 +3,7 @@
 This is a minimal pacman package that pretends to provide `systemd`, `systemd-libs` and `libsystemd.so=0-64` functionality and creates the symlink `/usr/lib/libsystemd.so.0` which points to `/usr/lib/libelogind.so.0` to solve dependency issues and prevent some packages like `seatd` from crashing when trying to use a distribution shipping `makepkg` and SystemD, without SystemD.
 ## Installation
 ```
-git clone https://github.com/Secondarian/archlinux-sysremd-stub
+git clone https://github.com/Secondarian/archlinux-systemd-stub
 cd archlinux-systemd-stub
 makepkg -si
 ```
